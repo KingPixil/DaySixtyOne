@@ -1,0 +1,55 @@
+  body{
+  background: #c0392b;
+  position:relative;
+}
+
+.svg{
+  display:block;
+  margin:0 auto;
+  height:500px;
+}
+.title{
+  font-family: 'Freckle Face', cursive;
+  text-align:center;
+  color: #ecf0f1;
+  font-size: 23px;
+  -webkit-animation: title 10s 1 ease-in-out;
+}
+@-webkit-keyframes title{
+  0%{color: #c0392b;}
+}
+
+[id^=img_]{
+  stroke:#fdfdfd;
+  stroke-width:1px;
+  fill:none;
+}
+
+
+#img_4,#img_5,#img_6{
+  -webkit-animation: left 5s 5s infinite ease-in-out;
+}
+@-webkit-keyframes left{
+  50%{-webkit-transform:translateX(20%)}
+}
+#img_10{
+  -webkit-transform:translateX(1000px);
+  -webkit-animation: car 12s 5s infinite ease-in-out;
+}
+@-webkit-keyframes car{
+  0%{-webkit-transform:translateX(-1000px)}
+}
+#img_8{
+  -webkit-transform:translateX(1000px);
+  -webkit-animation: car2 12s 8s infinite ease-in-out;
+}
+@-webkit-keyframes car2{
+  0%{-webkit-transform:translateX(-1000px)}
+}
+#img_11{
+  -webkit-transform:translateX(1000px);
+  -webkit-animation: ride 12s 10s infinite ease-in-out;
+}
+@-webkit-keyframes ride{
+  0%{-webkit-transform:translateX(-1000px)}
+}
